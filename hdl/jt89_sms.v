@@ -30,7 +30,7 @@ module jt89_sms(
     output         ready
 );
 
-jt89 #(.interpol16(1)) u_jt89(
+jt89 #(.INTERPOL16(1)) u_jt89(
     .clk    ( clk       ),
     .clk_en ( 1'b1      ),
     .rst    ( rst       ),
